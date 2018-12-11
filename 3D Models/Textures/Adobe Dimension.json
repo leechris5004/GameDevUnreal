@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "Gazebo": {
+        "WindowCurtain": {
             "shader": "Main shader"
         }
     }
