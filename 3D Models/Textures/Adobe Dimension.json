@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "WindowCurtain": {
+        "BedRuffled": {
             "shader": "Main shader"
         }
     }
