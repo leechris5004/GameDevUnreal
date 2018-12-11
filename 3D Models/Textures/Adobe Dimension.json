@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "BedsideTable": {
+        "Gazebo": {
             "shader": "Main shader"
         }
     }
