@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "BedsideTable": {
+        "BedRuffled": {
             "shader": "Main shader"
         }
     }
