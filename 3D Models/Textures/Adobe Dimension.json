@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "BedRuffled": {
+        "Gallows": {
             "shader": "Main shader"
         }
     }
