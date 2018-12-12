@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "Trenchwall": {
+        "Gallows": {
             "shader": "Main shader"
         }
     }
