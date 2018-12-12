@@ -19,7 +19,7 @@
         }
     },
     "texturesets": {
-        "BedRuffled": {
+        "Trenchwall": {
             "shader": "Main shader"
         }
     }

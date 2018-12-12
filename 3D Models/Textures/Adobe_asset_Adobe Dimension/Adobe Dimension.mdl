@@ -17,10 +17,10 @@ import ::tex::wrap_mode;
 import ::state::normal;
 
 
-export material MATERIAL_BEDRUFFLED(*)
+export material MATERIAL_TRENCHWALL(*)
 = ::adobe::mtl::standard(
 	baseColor: ::base::file_texture(
-	texture: texture_2d("BedRuffled_baseColor.png", ::tex::gamma_srgb),
+	texture: texture_2d("Trenchwall_baseColor.png", ::tex::gamma_srgb),
 	color_offset: color(0.f, 0.f, 0.f),
 	color_scale: color(1.f, 1.f, 1.f),
 	mono_source: ::base::mono_average,
@@ -35,7 +35,7 @@ export material MATERIAL_BEDRUFFLED(*)
 	clip: false
 ).tint,
 roughness: ::base::file_texture(
-	texture: texture_2d("BedRuffled_roughness.png", ::tex::gamma_linear),
+	texture: texture_2d("Trenchwall_roughness.png", ::tex::gamma_linear),
 	color_offset: color(0.f, 0.f, 0.f),
 	color_scale: color(1.f, 1.f, 1.f),
 	mono_source: ::base::mono_average,
@@ -50,7 +50,7 @@ roughness: ::base::file_texture(
 	clip: false
 ).mono,
 metallic: ::base::file_texture(
-	texture: texture_2d("BedRuffled_metallic.png", ::tex::gamma_linear),
+	texture: texture_2d("Trenchwall_metallic.png", ::tex::gamma_linear),
 	color_offset: color(0.f, 0.f, 0.f),
 	color_scale: color(1.f, 1.f, 1.f),
 	mono_source: ::base::mono_average,
@@ -65,7 +65,7 @@ metallic: ::base::file_texture(
 	clip: false
 ).mono,
 opacity: ::base::file_texture(
-	texture: texture_2d("BedRuffled_opacity.png", ::tex::gamma_linear),
+	texture: texture_2d("Trenchwall_opacity.png", ::tex::gamma_linear),
 	color_offset: color(0.f, 0.f, 0.f),
 	color_scale: color(1.f, 1.f, 1.f),
 	mono_source: ::base::mono_average,
@@ -80,7 +80,7 @@ opacity: ::base::file_texture(
 	clip: false
 ).mono,
 glow: ::base::file_texture(
-	texture: texture_2d("BedRuffled_glow.png", ::tex::gamma_srgb),
+	texture: texture_2d("Trenchwall_glow.png", ::tex::gamma_srgb),
 	color_offset: color(0.f, 0.f, 0.f),
 	color_scale: color(1.f, 1.f, 1.f),
 	mono_source: ::base::mono_average,
@@ -95,7 +95,7 @@ glow: ::base::file_texture(
 	clip: false
 ).mono,
 normal: ::base::tangent_space_normal_texture(
-	texture: texture_2d("BedRuffled_normal.png", ::tex::gamma_linear),
+	texture: texture_2d("Trenchwall_normal.png", ::tex::gamma_linear),
 	factor: 1.f,
 	flip_tangent_u: false,
 	flip_tangent_v: false,
